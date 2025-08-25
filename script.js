@@ -11,10 +11,10 @@ submitButton.addEventListener("click",(event)=>{
         let promise=new Promise((resolve,reject)=>{
             setTimeout(()=>{
                 if(Number(ageInput.value)>18){
-                    resolve(`Welcome, ${nameInput.value}. you can vote.`)
+                    resolve(`Welcome, ${nameInput.value}. You can vote.`)
                 }
                 else{
-                    reject(`Oh sorry ${nameInput.value}. You aren't old enough`)
+                    reject(`Oh sorry ${nameInput.value}. You aren't old enough.`)
                 }
             },4000)
         })
